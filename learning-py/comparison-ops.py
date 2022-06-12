@@ -32,3 +32,14 @@ print (bool(" ")) # True
 print (bool(1)) # True
 print (bool(1.0)) # True
 print (bool(True)) # True
+
+# In operator, works with iterable types only, like strings & lists
+# Doesnt work with numbers
+
+print ("soumil" in "soumil") # True
+print ("soumil" in "Soumil is a good") # False (case-sensitive)
+
+print ("10" in "10") # True
+print (45 in [10, 15, 12]) # False
+print (45 in [10, 15, 12, 33.22, 45]) # True
+print (33.22 in [10, 15, 12, 33.22, 45]) # True
