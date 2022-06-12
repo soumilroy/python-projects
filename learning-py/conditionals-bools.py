@@ -16,3 +16,19 @@ print (11.000001 == 11.0) # False
 print (12.3 != 12.3) # False
 
 # Truthy & Falsey values
+# Falsey: Empty string ("", ''), 0, 0.0, None, False, (), [], {}
+# Truthy: Anything else
+
+print (bool("")) # Falsey
+print (bool(0)) # Falsey
+print (bool(0.0)) # Falsey
+print (bool(None)) # Falsey
+print (bool(False)) # Falsey
+print (bool(())) # Falsey
+print (bool([])) # Falsey
+print (bool({})) # Falsey
+
+print (bool(" ")) # True
+print (bool(1)) # True
+print (bool(1.0)) # True
+print (bool(True)) # True
