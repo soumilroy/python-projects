@@ -1,5 +1,5 @@
 for char in "SOUMIL":
-		if char in "AEIOU":
-			continue
-		
-		print (char) # Skip all vowels
+    if char in "AEIOU":
+        continue
+
+    print(char)  # Skip all vowels

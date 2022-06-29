@@ -74,3 +74,9 @@ print (len(message)) # 107
 
 # print (len(122))
 print (len("")) # 0
+
+print("""
+Usage: thingy [OPTIONS]
+     -h                        Display this usage message
+     -H hostname               Hostname to connect to
+""")
