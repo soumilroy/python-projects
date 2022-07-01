@@ -39,4 +39,25 @@ star_war_characters = ['Han Solo', 'C-3PO', 'R2-D2', 'Luke Skywalker', 'Leia Org
 
 star_war_characters.insert(3, 'Chewbacca')
 print(
-    star_war_characters)  # ['Han Solo', 'C-3PO', 'R2-D2', 'Chewbacca', 'Luke Skywalker', 'Leia Organa', 'Obi-Wan Kenobi']
+    star_war_characters)  # ['Han Solo', 'C-3PO', 'R2-D2', 'Chewbacca', 'Luke Skywalker', 'Leia Organa', 'Obi-Wan
+# Kenobi']
+
+# Slicing lists # list[start:stop:step]
+print("SOUMILROY"[6:9])  # ROY
+print(star_war_characters[4:])  # ['Luke Skywalker', 'Leia Organa', 'Obi-Wan Kenobi']
+print(star_war_characters[1:7:2])  # ['C-3PO', 'Chewbacca', 'Leia Organa']
+print(star_war_characters[::2])  # ['Han Solo', 'R2-D2', 'Luke Skywalker', 'Obi-Wan Kenobi']
+
+# replacing sliced lists
+star_war_characters[1:3] = ["Vader", "Mando", "Moff Gideon"]  # ['Han Solo', 'Vader', 'Mando', 'Chewbacca', 'Luke
+# Skywalker',
+# 'Leia Organa', 'Obi-Wan Kenobi']
+print(star_war_characters)
+
+# Clear list - remove all values from lists
+# star_war_characters.clear()
+# print(star_war_characters)
+
+star_war_characters.remove("Moff Gideon")
+print(star_war_characters)
+

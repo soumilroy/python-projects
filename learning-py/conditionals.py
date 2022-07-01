@@ -6,7 +6,7 @@ if not age:
 	print("You didn't enter your age!")
 	exit()
 
-age = int(age);
+age = int(age)
 
 if age < 18:
 	print("You are a minor.")
