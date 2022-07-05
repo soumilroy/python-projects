@@ -1,5 +1,6 @@
 def fibbonaci(n):
     a, b, = 0, 1
+    print(f"""Print a Fibonacci series up to {n}.""")
 
     while a < n:
         print(a, end=' ')
@@ -8,3 +9,4 @@ def fibbonaci(n):
 
 
 fibbonaci(1000)
+fibbonaci(2000)
